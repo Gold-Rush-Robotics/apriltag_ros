@@ -70,7 +70,7 @@ install(TARGETS AprilTagNode
     LIBRARY DESTINATION lib
 )
 
-install(DIRECTORY cfg/ DESTINATION share/${PROJECT_NAME}/cfg)
+install(DIRECTORY config/ DESTINATION share/${PROJECT_NAME}/config)
 
 install(DIRECTORY launch DESTINATION share/${PROJECT_NAME})
 
